@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+        "phpcs.executablePath": "./vendor/bin/phpcs",
+        "phpcs.ignorePatterns": [
+            "*/tests/*",
+            "*/vendor/*"
+        ],
+        "phpcs.standard": "PSR2",
+        "phpmd.command": "php ./vendor/bin/phpmd",
+        "phpmd.rules": "./phpmd-ruleset.xml"
+	},
+}
